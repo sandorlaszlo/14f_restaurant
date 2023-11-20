@@ -1,0 +1,205 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "14f_restaurant",
+    "dateExported": "2023-11-20T11:28:32.068Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "dc970493-06ab-4631-9b0e-834cb17d312f",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get all menu",
+            "url": "http://127.0.0.1:8000/api/menu",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-20T09:59:01.080Z",
+            "modified": "2023-11-20T10:01:19.984Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "43ce7f31-a31f-40df-a2b8-b74da68b209d",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get all category",
+            "url": "http://127.0.0.1:8000/api/category",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-11-20T10:16:59.218Z",
+            "modified": "2023-11-20T10:17:24.744Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4784a5e7-ee3f-4067-929f-df1b1b59459a",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get menus by category",
+            "url": "http://127.0.0.1:8000/api/category/American",
+            "method": "GET",
+            "sortNum": 17500,
+            "created": "2023-11-20T10:24:49.347Z",
+            "modified": "2023-11-20T10:25:27.707Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "00960bc6-fb61-4435-8ab5-84e9966b42f3",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get menus by pirce",
+            "url": "http://127.0.0.1:8000/api/menu/15/20",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-20T10:05:42.386Z",
+            "modified": "2023-11-20T10:10:21.710Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5135e45a-9b05-452b-b223-76f9246bddf9",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get menus by order_id",
+            "url": "http://127.0.0.1:8000/api/order/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-20T11:02:16.245Z",
+            "modified": "2023-11-20T11:02:43.878Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b4761e94-6dba-4cad-9706-94fdd6d5ebdc",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get orders by date",
+            "url": "http://127.0.0.1:8000/api/order/date/2023.01.02",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-20T11:11:34.451Z",
+            "modified": "2023-11-20T11:12:11.791Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c7cd1b75-6658-4bfd-bce1-b9d433518c9f",
+            "colId": "7e275225-6d05-4077-8830-ea0ea4057b67",
+            "containerId": "",
+            "name": "get Total Orders By Date",
+            "url": "http://127.0.0.1:8000/api/order/total/date/2023.01.01",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-20T11:21:15.631Z",
+            "modified": "2023-11-20T11:26:29.774Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
